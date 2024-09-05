@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Webshop.Model
 {
-    internal class OrderLine
+    public class OrderLine
     {
+        public int OrderLineID { get; set; }
+        public int OrderID { get; set; }
+        public int PruductID { get; set; }
+        public int Amount { get; set; }
+        public float Price { get; set; }
     }
 }
