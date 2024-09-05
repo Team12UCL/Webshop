@@ -11,7 +11,7 @@ namespace Webshop.Model
         public int OrderLineID { get; set; }
         public int OrderID { get; set; }
         public int PruductID { get; set; }
-        public int Amount { get; set; }
+        public int Quantity { get; set; }
         public float Price { get; set; }
     }
 }
