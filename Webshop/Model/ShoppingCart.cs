@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Webshop.Model
 {
-    internal class ShoppingCart
+    public class ShoppingCart
     {
+        public int CartID { get; set; }
+        public int CustomerID { get; set; }
     }
 }
