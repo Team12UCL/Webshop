@@ -8,6 +8,7 @@ namespace Webshop.Model
 {
     internal class Category
     {
-        fkaw
+        public int CategoryID { get; set; }
+        public string Name { get; set; }
     }
 }
