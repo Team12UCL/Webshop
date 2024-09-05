@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Webshop.Model
 {
-    internal class PaymentMethod
+    public class PaymentMethod
     {
+        public int PaymentMethodId { get; set; }
+        public string Name { get; set; }
     }
 }
